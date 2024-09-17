@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Básico</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="fundo">
+        <h1>Calculadora Original</h1>
+        <label id="resultado"></label>
+
+        <div class="calculadora">
+            <input type="text" id="valorUm" placeholder="Insira o primeiro valor">
+            <input type="text" id="valorDois" placeholder="Insira o segundo valor">
+            <select id="operacoes">
+                <option>Adição</option>
+                <option>Subtração</option>
+                <option>Divisão</option>
+                <option>Multiplicação</option>
+            </select>
+            <button onclick="calcular();">Calcular</button>
+            <button onclick="limpar();" id="limpo">Limpar</button>
+        </div>
+    </div>
+</body>
+</html>
